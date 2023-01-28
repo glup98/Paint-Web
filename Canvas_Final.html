@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Dibujo Libre</title>
+    <link rel="stylesheet" href="Canvas_Final.css">
+  </head>
+  <body>
+    <div class="grosor">
+      <p1 id="grosorTxt">Grosor</p1>
+      <select name="grosor" id="grosor">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+      </select>
+    </div>
+    <div class="color">
+      <p2 id="colorTxt">Color</p2>
+      <input type="color" value="#000000" id="color">
+    </div>
+    <section id = "dibujoCanvas">
+      <canvas width="700" height="700" id="canvas">
+        Su Navegador no soporta Canvas.
+      </canvas>
+    </section>
+    <p>Mini Paint Web</p>
+    <script src="Canvas_Final.js"></script>
+  </body>
+</html>
